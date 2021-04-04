@@ -1,0 +1,286 @@
+body {
+	background: #F6F5F5;
+	color: rgb(30, 30, 30);
+	font-family: var(--fontFamily);
+    font-weight: var(--fontWeightNormal);
+    -webkit-font-smoothing: antialiased;
+	font-size: 17px;
+
+
+	line-height: ; use this to add space when big paragraph of text
+	letter-spacing: ; (10px)
+	font-weight: ; (lighter=100 or bold)
+	text-decoration: ; (none to get rid of lines under text)
+	text-transform: ; (uppercase)
+}
+
+h1, h2, h3, h4 {
+    line-height: 1;
+    font-family: Sequel,sans-serif; // try circular
+}
+
+h1 {text-align: center;
+	font-weight: 800;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+h2{ text-align: center;
+	font-weight: 575;
+    line-height: 1;
+    font-size: 42px;
+    color: #276678;
+}
+
+h3{ text-align: center;
+	font-weight: 575;
+    line-height: 1;
+    font-size: 25px;
+    color: #276678;
+}
+
+h4{font-weight: 575;
+    line-height: 1;
+    font-size: 18px;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+	transition: color 0.3s ease;
+  	background-color: transparent;
+  	font-weight: 550;
+  	font-size: 16px;
+    font-family: Sequel,sans-serif;
+}
+a:hover {
+	color: #45364B;
+	text-decoration: underline;
+}
+
+strong{
+	color: #1687A7;
+}
+
+/* Add a black background color to the TOP NAVIGATION */
+.topnav {
+  background-color: #D3E0EA;
+  overflow: hidden;
+}
+
+#myTopnav {
+	text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  display:inline-block;
+  color: #0F3460;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+/* END OF THIS PART OF THE TOP NAVIGATION CODE */
+
+.center-round {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 1%;
+}
+
+
+.btn-blue {
+	background-color: #D3E0EA;
+	color: #0F3460;
+	padding: 7px 10px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: lightgrey;
+	color: #0F3460;
+	text-decoration-style: none;
+}
+
+#btn-blue {
+	margin-top: 200px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 35px;
+
+}
+.list-inline i:hover {
+	color: #45364B;
+}
+
+.logo {
+	width: 700px;
+	height: 40px;
+	text-align: center;
+	color: #0F3460;
+}
+
+#flag {
+	width:30px;
+	border-radius: 30%;
+	box-shadow: 2px 2px 1px grey;
+	border: 1px lightgrey;
+}
+#flag:hover {
+	opacity: 0.7;
+}
+
+#ProfileImage{
+	background-image: src="images/Profile.jpg";
+	background-size: cover;
+}
+
+
+.container {
+	width: 1000px;
+	margin: 35px auto;
+	
+	border-radius: 4px;
+	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+	padding:30px;
+}
+
+#introduction p {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#languages {
+	list-style: none;
+	text-align: center;
+}
+#languages li {
+	display: inline;
+}
+#languages li strong {
+	font-size: 20px;
+}
+#languages li:hover {
+	opacity: 0.7;
+}
+#languages p {
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+#education p {
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+#Logo-essec {
+	width:50px;
+}
+
+#Logo-lfsf {
+	width:30px;
+}
+
+#Logo-startuplycee {
+	width:35px;
+}
+
+#Logo-checkster {
+	width:32px;
+}
+
+#Logo-technovation {
+	width:35px;
+}
+
+#professional-experience {
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+#professional-experience a {
+	margin-top: 200px;
+	text-align: center;
+}
+
+#passions-interests {
+	margin-bottom: 40px;
+}
+#passions-interests h3 {
+	margin-bottom: 20px;
+}
+
+#logos {
+	text-align: center;
+	text-decoration-style: none;
+}
+
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 760px) {
+	.lastcontainer {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+@media (max-width: 500px) {
+	.lastcontainer {
+		width: 400px;
+	}
+}
+
